@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import { ref } from 'pdfkit';
 const postSchema = new mongoose.Schema({
     userId: {
         type: mongoose.Schema.Types.ObjectId,
